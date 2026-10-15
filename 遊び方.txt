@@ -1,0 +1,5 @@
+CRYSTAL LEGENDS
+
+・index.html をダブルクリックすると、ブラウザで遊べます。
+・セーブデータはブラウザの中に保存されます。
+・音楽と効果音のクレジットは assets/audio/CREDITS.txt を見てください。

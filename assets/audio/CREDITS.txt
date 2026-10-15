@@ -1,0 +1,19 @@
+CRYSTAL LEGENDS - BGM・効果音のクレジット（BGM仕様書 1章・8章）
+
+ここに置く音声ファイルは、作曲者から使用の許可を得たもの、または自分で作ったものだけにしてください。
+ファイルの置き場所：assets/audio/bgm/<区分>/bgm001.mp3（区分＝title・field・town・castle・dungeon・battle・event・ending）
+ファイルを置くと、次に起動したときからそのファイルで鳴ります。置いていない曲は、プログラムで作るチップチューン（オリジナル曲）で鳴ります。
+
+曲ごとに、次のように書いてください。
+ID / BGM名 / ファイル / 作曲者 / 使用の条件
+
+BGM001〜043 オーケストラ版 / assets/audio/orch/<ID>.js
+  作曲：CRYSTAL LEGENDS（ゲームのオリジナル曲。js/audio.js の楽譜と同じ音符）
+  編曲・書き出し：tools/orchestra/render.py（楽譜をオーケストラの楽器に割りあてて自動で書き出したもの）
+  楽器の音：MuseScore_General.sf2 v0.2（MIT ライセンス）
+    FluidR3 (original version) by Frank Wen Copyright (c) 2000-02
+    Mono conversion (FluidR3Mono) by Michael Cowgill Copyright (c) 2014-17
+    Adaptation for MuseScore_General.sf2 by S. Christian Collins Copyright (c) 2018-19
+    Temple Blocks instrument provided by Ethan Winer Copyright (c) 2002
+    Drumline Cymbals provided by Michael Schorsch Copyright (c) 2016
+    ライセンスの全文：assets/audio/MuseScore_General_License.md
