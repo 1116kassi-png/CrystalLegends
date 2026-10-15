@@ -1,5 +1,5 @@
 /* CRYSTAL LEGENDS service worker: offline play */
-const CACHE = 'crystal-legends-v132'; // character images under assets/ are cached on first use
+const CACHE = 'crystal-legends-v133'; // character images under assets/ are cached on first use
 const FILES = ["./", "index.html", "style.css", "manifest.webmanifest", "icon.svg", "game.js"];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
